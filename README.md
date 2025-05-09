@@ -15,11 +15,11 @@ Este proyecto consiste en una aplicación web ligera y escalable desarrollada co
 
 ## 💡Requisitos
 
-Tener -**docker** instalado
+Tener -**Docker** instalado
 
-Tener -**git**  instalado
+Tener -**Git**  instalado
 
-## 🗃️ Estructura del Proyecto
+## 🗃️ Estructura Del Proyecto
 <div style="display: flex; gap: 10px;">
     <img src="https://i.imgur.com/Gu0Wiyj.png" alt="Captura de la app" width="300"/>
     <img src="https://i.imgur.com/liisb4c.png" alt="Captura de la app 2" width="300"/>
@@ -27,7 +27,7 @@ Tener -**git**  instalado
 </div>
 
 
-## 🔧instrucciones de despliegue:
+## 🔧Instrucciones De Despliegue:
 ## Instalación
 
 ## 1. Clona este repositorio en tu maquina local:
@@ -63,7 +63,7 @@ sudo docker ps
 http://ip publica
 ```
 
-## 🛠️ ¿Cómo modificar?
+## 🛠️ ¿Cómo Modificar?
 
 - **Modifica el contenido o diseño fácilmente editando los siguientes archivos:**
 
