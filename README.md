@@ -41,7 +41,8 @@ cd Proyecto-final/
 
 ## 3. Construye la imagen Docker con el siguiente comando:
 ```bash
-sudo docker build . -t proyectofinal:v01.
+sudo docker build -t proyectofinal:v01 .
+
 ```
 
 ## 4. Ejecutar el Contenedor:
