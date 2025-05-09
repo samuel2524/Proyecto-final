@@ -29,42 +29,54 @@ Tener -**git**  instalado
 ## 🔧instrucciones de despliegue:
 ## Instalación
 
-## Clona este repositorio en tu maquina local:
+## 1. Clona este repositorio en tu maquina local:
 
 git clone https://github.com/samuel2524/Proyecto-final.git
 
-## Entramos a Proyecto-final/
+## 2. Entramos a Proyecto-final/
 ```bash
 cd Proyecto-final/
 ```
 
-Construye la imagen Docker con el siguiente comando:
-
+## 3. Construye la imagen Docker con el siguiente comando:
+```bash
 sudo docker build . -t proyectofinal:v01.
+```
 
-Ejecutar el Contenedor
+## 4. Ejecutar el Contenedor:
 
+```bash
 sudo docker run -d -p 80:80 proyectofinal:v01
+```
 
-Verificamos si se creo
+## 5. Verificamos si se creo
 
+```bash
 sudo docker ps
+```
+## 6. Acceder a la Aplicación con la ip publica
 
-Acceder a la Aplicación con la ip publica
-
+```bash
 http://ip publica
+```
 
-🛠️ ¿Cómo modificar?
+## 🛠️ ¿Cómo modificar?
 
-Modifica el contenido o diseño fácilmente editando los siguientes archivos:
+- **Modifica el contenido o diseño fácilmente editando los siguientes archivos:**
 
-    app/templates/index.html: Cambia el contenido HTML de la página.
-    app/static/style.css: Ajusta el diseño visual (colores, fuentes, etc.).
+    - **app/templates/index.html: Cambia el contenido HTML de la página.**
+    - **app/static/style.css: Ajusta el diseño visual (colores, fuentes, etc.).**
 
-Como Reconstruir la imagen:
+## Como Reconstruir la imagen:
 
+```bash
 sudo docker build . -t proyectofinal:v01
+```
 
+```bash
 Volvemos A Ejecutar El Contenedor:
+```
 
+```bash
 sudo docker run -d -p 80:80 proyectofinal:v01
+```
