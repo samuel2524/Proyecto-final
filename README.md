@@ -15,8 +15,8 @@ Este proyecto consiste en una aplicación web ligera y escalable desarrollada co
 
 ## 💡Requisitos
 
--Tener -**docker** instalado
--Tener -**git**  instalado
+## Tener -**docker** instalado
+## Tener -**git**  instalado
 
 ## 🗃️ Estructura del Proyecto
 <div style="display: flex; gap: 10px;">
