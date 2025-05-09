@@ -39,7 +39,7 @@ git clone https://github.com/samuel2524/Proyecto-final.git
 cd Proyecto-final/
 ```
 
-## 3. Construye la imagen Docker con el siguiente comando:
+## 3. Construye la imagen Docker con el siguiente comando(v01,v02,v03,v04):
 ```bash
 sudo docker build -t proyectofinal:v01 .
 
