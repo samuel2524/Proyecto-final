@@ -73,9 +73,7 @@ http://ip publica
 sudo docker build . -t proyectofinal:v01
 ```
 
-```bash
-Volvemos A Ejecutar El Contenedor:
-```
+## Volvemos A Ejecutar El Contenedor:
 
 ```bash
 sudo docker run -d -p 80:80 proyectofinal:v01
