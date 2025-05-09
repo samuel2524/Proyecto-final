@@ -69,12 +69,20 @@ http://ip publica
     - **app/templates/index.html: Cambia el contenido HTML de la página.**
 
 
-## Como Reconstruir la imagen:
-
+## tenemos que detener el contenedor anterior
 ```bash
-sudo docker build . -t proyectofinal:v01
+docker stop proyectofinal
 ```
 
+## Luego se borra
+```bash
+docker rm proyectofinal
+```
+## Reconstruir la imagen:
+
+```bash
+sudo docker build -t proyectofinal:v01 .
+```
 ## Volvemos A Ejecutar El Contenedor:
 
 ```bash
