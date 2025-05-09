@@ -71,12 +71,12 @@ http://ip publica
 
 ## tenemos que detener el contenedor anterior
 ```bash
-docker stop proyectofinal
+docker stop container id
 ```
 
 ## Luego se borra
 ```bash
-docker rm proyectofinal
+docker rm container id
 ```
 ## Reconstruir la imagen:
 
