@@ -30,8 +30,9 @@ Tener -**git**  instalado
 ## Instalación
 
 ## 1. Clona este repositorio en tu maquina local:
-
+```bash
 git clone https://github.com/samuel2524/Proyecto-final.git
+```
 
 ## 2. Entramos a Proyecto-final/
 ```bash
