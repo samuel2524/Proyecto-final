@@ -66,7 +66,7 @@ http://ip publica
 - **Modifica el contenido o diseño fácilmente editando los siguientes archivos:**
 
     - **app/templates/index.html: Cambia el contenido HTML de la página.**
-    - **app/static/style.css: Ajusta el diseño visual (colores, fuentes, etc.).**
+
 
 ## Como Reconstruir la imagen:
 
