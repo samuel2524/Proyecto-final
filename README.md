@@ -30,34 +30,43 @@ Tener -**Git**  instalado
 ## 🔧Instrucciones De Despliegue:
 ## Instalación
 
-## 1. Clona este repositorio en tu maquina local:
+## 1. hacmeos primero un update:
+```bash
+sudo apt update
+```
+## 2.instalamos el docker:
+```bash
+sudo apt install docker-compose -y
+```
+
+## 3. Clonamos este repositorio en tu maquina local:
 ```bash
 git clone https://github.com/samuel2524/Proyecto-final.git
 ```
 
-## 2. Entramos a Proyecto-final/
+## 4. Entramos a Proyecto-final/
 ```bash
 cd Proyecto-final/
 ```
 
-## 3. Construye la imagen Docker con el siguiente comando(v01,v02,v03,v04):
+## 5. Construye la imagen Docker con el siguiente comando(v01,v02,v03,v04):
 ```bash
 sudo docker build -t proyectofinal:v01 .
 
 ```
 
-## 4. Ejecutar el Contenedor:
+## 6. Ejecutar el Contenedor:
 
 ```bash
 sudo docker run -d -p 80:80 proyectofinal:v01
 ```
 
-## 5. Verificamos si se creo
+## 7. Verificamos si se creo
 
 ```bash
 sudo docker ps
 ```
-## 6. Acceder a la Aplicación con la ip publica
+## 8. Acceder a la Aplicación con la ip publica
 
 ```bash
 http://ip publica
