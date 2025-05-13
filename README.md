@@ -30,7 +30,7 @@ Tener -**Git**  instalado
 ## 🔧Instrucciones De Despliegue:
 ## Instalación
 
-## 1. hacmeos primero un update:
+## 1. hacemos primero un update:
 ```bash
 sudo apt update
 ```
